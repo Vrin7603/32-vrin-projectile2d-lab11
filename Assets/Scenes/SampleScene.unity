@@ -517,6 +517,7 @@ GameObject:
   - component: {fileID: 1557994869}
   - component: {fileID: 1557994868}
   - component: {fileID: 1557994867}
+  - component: {fileID: 1557994871}
   m_Layer: 0
   m_Name: Shooter
   m_TagString: Untagged
@@ -708,6 +709,21 @@ Transform:
   - {fileID: 1003958639}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1557994871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557994866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38e051cde6e1eff4f8f96570f15b438b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shootPoint: {fileID: 1003958639}
+  target: {fileID: 1810813924}
+  bulletPrefab: {fileID: 5146447246621048819, guid: 08df5dfa2f6e198409bc572aab92ee21, type: 3}
 --- !u!1 &1810813924
 GameObject:
   m_ObjectHideFlags: 0
